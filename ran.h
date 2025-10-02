@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include "matrix.h"
 
-#define INITWORDS "FUCKYOU"
+#define INITWORDS "CATGIRL"
 #define INITLENGTH 7
 #define HASHLEN 32
 
