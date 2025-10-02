@@ -10,7 +10,7 @@
 #define DIV_CEIL(p,q) ((p/q)+((p%q > 0)?1:0))
 #endif
 
-#define passphrase "PASSWORD"
+#define passphrase "PASSWORD" // TODO: This is only for testing purposes. CHANGE THIS.
 #define passlen 8
 #define HASHLEN 32
 #define SALTLEN 16
@@ -264,7 +264,7 @@ int main()
     }
 
     // TODO: The parameters are not hardcoded (Duh)
-    fmask("test2.png", passphrase, 1);
+    fmask("test2.png", passphrase, 0);
 
     return 0;
 }
